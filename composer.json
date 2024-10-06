@@ -1,5 +1,5 @@
 {
-    "name": "svd/php-mvc-core",
+    "name": "vanndy/php-mvc-core",
     "autoload": {
         "psr-4": {
             "Svd\\PhpMvcCore\\": "src/"
