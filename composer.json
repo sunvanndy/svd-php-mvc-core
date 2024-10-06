@@ -1,0 +1,14 @@
+{
+    "name": "svd/php-mvc-core",
+    "autoload": {
+        "psr-4": {
+            "Svd\\PhpMvcCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vanndy"
+        }
+    ],
+    "require": {}
+}
