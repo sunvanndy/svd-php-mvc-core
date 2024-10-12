@@ -1,13 +1,13 @@
 <?php
 /**
  * Created DateTime: 6/21/2024, 10:52 PM
- * @package app\core
+ * @package vanndy\phpmvc
  */
 
-namespace app\core;
+namespace vanndy\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use vanndy\phpmvc\db\Database;
+use vanndy\phpmvc\db\DbModel;
 use app\models\User;
 
 class Application

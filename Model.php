@@ -3,11 +3,11 @@
  * Created DateTime: 7/6/2024, 2:09 PM
  */
 
-namespace app\core;
+namespace vanndy\phpmvc;
 
 /**
  * Class Model
- * @package app\core
+ * @package vanndy\phpmvc
  */
 
 abstract class Model

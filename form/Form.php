@@ -1,12 +1,12 @@
 <?php
 
 
-namespace app\core\form;
-use app\core\Model;
+namespace vanndy\phpmvc\form;
+use vanndy\phpmvc\Model;
 
 /**
  * Class Form
- * @package app\core\form
+ * @package vanndy\phpmvc\form
  */
 
 class Form

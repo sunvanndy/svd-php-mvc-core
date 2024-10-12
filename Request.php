@@ -3,7 +3,7 @@
  * Created DateTime: 6/21/2024, 11:57 PM
  */
 
-namespace app\core;
+namespace vanndy\phpmvc;
 
 
 class Request

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace app\core\db;
+namespace vanndy\phpmvc\db;
 
 
-use app\core\Application;
-use app\core\Model;
+use vanndy\phpmvc\Application;
+use vanndy\phpmvc\Model;
 use app\models\User;
 
 abstract class DbModel extends Model

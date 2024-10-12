@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\core;
+namespace vanndy\phpmvc;
 
 
 class View

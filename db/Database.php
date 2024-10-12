@@ -1,9 +1,9 @@
 <?php
 
 
-namespace app\core\db;
+namespace vanndy\phpmvc\db;
 
-use app\core\Application;
+use vanndy\phpmvc\Application;
 
 class Database
 {

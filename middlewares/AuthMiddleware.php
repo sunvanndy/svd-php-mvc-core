@@ -1,14 +1,14 @@
 <?php
 
 
-namespace app\core\middlewares;
+namespace vanndy\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use vanndy\phpmvc\Application;
+use vanndy\phpmvc\exception\ForbiddenException;
 
 /**
  * Class AuthMiddleware
- * @package app\core\middlewares
+ * @package vanndy\phpmvc\middlewares
  */
 class AuthMiddleware extends BaseMiddleware
 {

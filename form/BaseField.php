@@ -1,9 +1,9 @@
 <?php
 
 
-namespace app\core\form;
+namespace vanndy\phpmvc\form;
 
-use app\core\Model;
+use vanndy\phpmvc\Model;
 
 abstract class BaseField
 {

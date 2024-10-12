@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\core\form;
+namespace vanndy\phpmvc\form;
 
 // TODO: Practice with other Field Option such as Select, Dropdown by your own later
 

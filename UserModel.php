@@ -1,10 +1,10 @@
 <?php
 
 
-namespace app\core;
+namespace vanndy\phpmvc;
 
 
-use app\core\db\DbModel;
+use vanndy\phpmvc\db\DbModel;
 
 abstract class UserModel extends DbModel
 {

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace app\core\exception;
+namespace vanndy\phpmvc\exception;
 
 /**
  * Class ForbiddenException extend the core class Exception form PHP
- * @package app\core\exception
+ * @package vanndy\phpmvc\exception
  */
 class ForbiddenException extends \Exception
 {

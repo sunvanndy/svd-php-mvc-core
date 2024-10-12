@@ -1,10 +1,10 @@
 <?php
 /**
  * Created DateTime: 6/29/2024, 2:40 PM
- * @namespace app\core
+ * @namespace vanndy\phpmvc
  */
 
-namespace app\core;
+namespace vanndy\phpmvc;
 
 
 class Response

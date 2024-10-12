@@ -6,13 +6,13 @@
 /**
  * Class Controller
  *
- * @package app\core
+ * @package vanndy\phpmvc
  */
 
-namespace app\core;
+namespace vanndy\phpmvc;
 
 
-use app\core\middlewares\BaseMiddleware;
+use vanndy\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
@@ -20,7 +20,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var app\core\middlewares\BaseMiddleware[]
+     * @var vanndy\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -40,7 +40,7 @@ class Controller
     }
 
     /**
-     * @return app\core\middlewares\BaseMiddleware[]
+     * @return vanndy\phpmvc\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

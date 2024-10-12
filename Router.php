@@ -1,12 +1,12 @@
 <?php
 /**
  * Created DateTime: 6/21/2024, 10:53 PM
- * @package app\core
+ * @package vanndy\phpmvc
  */
 
-namespace app\core;
+namespace vanndy\phpmvc;
 
-use app\core\exception\NotFoundException;
+use vanndy\phpmvc\exception\NotFoundException;
 
 class Router
 {
@@ -16,8 +16,8 @@ class Router
 
     /**
      * Router constructor.
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \vanndy\phpmvc\Request $request
+     * @param \vanndy\phpmvc\Response $response
      */
     public function __construct(Request $request, Response $response)
     {
@@ -57,7 +57,7 @@ class Router
         // OPTIONAL
         if(is_array($callback)) {
             // Shortcut replace all found: Control+option(ALT)+v
-            /** @var \app\core\Controller $controller */
+            /** @var \vanndy\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];
